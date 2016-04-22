@@ -35,7 +35,7 @@ params.featurefiletype = '.mat'              ;
 params.modelfiletype = '.mat'                ;
 params.resultfiletype = '.mat'               ;
 %% Database Params
-params.database       = '/home/mdl/ska130/Research/Datasets/Wegmans/Images/';
+params.database       = './Datasets/Wegmans/Images/';
 params.db.imdims      = [256, 256]        ;
 params.db.numsamples  = 20; % take these samples from every image
 params.classnames     = {'Cereal', 'Chips', 'Cleaning', 'Coffee', 'Condiments', 'Cookies', 'Dental', 'Juice', 'Pasta', 'Refrigerated', 'Sauce', 'Soda', 'Soup', 'Storage'};
